@@ -25,6 +25,37 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef RGBA
+    #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+    #if __IPHONE_6_0 // iOS6 and later
+
+        #   define kTextAlignmentCenter    NSTextAlignmentCenter
+        #   define kTextAlignmentLeft      NSTextAlignmentLeft
+        #   define kTextAlignmentRight     NSTextAlignmentRight
+
+        #   define kTextLineBreakByWordWrapping      NSLineBreakByWordWrapping
+        #   define kTextLineBreakByCharWrapping      NSLineBreakByCharWrapping
+        #   define kTextLineBreakByClipping          NSLineBreakByClipping
+        #   define kTextLineBreakByTruncatingHead    NSLineBreakByTruncatingHead
+        #   define kTextLineBreakByTruncatingTail    NSLineBreakByTruncatingTail
+        #   define kTextLineBreakByTruncatingMiddle  NSLineBreakByTruncatingMiddle
+
+    #else // older versions
+
+        #   define kTextAlignmentCenter    UITextAlignmentCenter
+        #   define kTextAlignmentLeft      UITextAlignmentLeft
+        #   define kTextAlignmentRight     UITextAlignmentRight
+
+        #   define kTextLineBreakByWordWrapping       UILineBreakModeWordWrap
+        #   define kTextLineBreakByCharWrapping       UILineBreakModeCharacterWrap
+        #   define kTextLineBreakByClipping           UILineBreakModeClip
+        #   define kTextLineBreakByTruncatingHead     UILineBreakModeHeadTruncation
+        #   define kTextLineBreakByTruncatingTail     UILineBreakModeTailTruncation
+        #   define kTextLineBreakByTruncatingMiddle   UILineBreakModeMiddleTruncation
+
+    #endif
+#endif
+
 typedef enum SSCheckBoxViewStyle_ {
     kSSCheckBoxViewStyleBox = 0,
     kSSCheckBoxViewStyleDark,

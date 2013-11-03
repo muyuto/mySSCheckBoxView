@@ -73,6 +73,7 @@ static const CGFloat kHeight = 24.0f;
 
 - (void) dealloc
 {
+    [super dealloc];
     self.stateChangedBlock = nil;
     checkBoxImageView = nil;
     textLabel = nil;
