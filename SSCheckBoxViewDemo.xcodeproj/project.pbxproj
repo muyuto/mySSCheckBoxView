@@ -17,27 +17,8 @@
 		598F6402148E32C70051D19A /* SSCheckBoxViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F6401148E32C70051D19A /* SSCheckBoxViewViewController.m */; };
 		598F6405148E32C70051D19A /* SSCheckBoxViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598F6403148E32C70051D19A /* SSCheckBoxViewViewController.xib */; };
 		598F6423148E35910051D19A /* SSCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F6422148E35910051D19A /* SSCheckBoxView.m */; };
-		59C9DCEB148FFA3C00B41CAD /* cb_box_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCD4148FFA3C00B41CAD /* cb_box_off.png */; };
-		59C9DCEC148FFA3C00B41CAD /* cb_box_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCD5148FFA3C00B41CAD /* cb_box_off@2x.png */; };
-		59C9DCED148FFA3C00B41CAD /* cb_box_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCD6148FFA3C00B41CAD /* cb_box_on.png */; };
-		59C9DCEE148FFA3C00B41CAD /* cb_box_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCD7148FFA3C00B41CAD /* cb_box_on@2x.png */; };
-		59C9DCEF148FFA3C00B41CAD /* cb_dark_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCD8148FFA3C00B41CAD /* cb_dark_off.png */; };
-		59C9DCF0148FFA3C00B41CAD /* cb_dark_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCD9148FFA3C00B41CAD /* cb_dark_off@2x.png */; };
-		59C9DCF1148FFA3C00B41CAD /* cb_dark_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCDA148FFA3C00B41CAD /* cb_dark_on.png */; };
-		59C9DCF2148FFA3C00B41CAD /* cb_dark_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCDB148FFA3C00B41CAD /* cb_dark_on@2x.png */; };
-		59C9DCF3148FFA3C00B41CAD /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCDC148FFA3C00B41CAD /* cb_glossy_off.png */; };
-		59C9DCF4148FFA3C00B41CAD /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCDD148FFA3C00B41CAD /* cb_glossy_off@2x.png */; };
-		59C9DCF5148FFA3C00B41CAD /* cb_glossy_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCDE148FFA3C00B41CAD /* cb_glossy_on.png */; };
-		59C9DCF6148FFA3C00B41CAD /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCDF148FFA3C00B41CAD /* cb_glossy_on@2x.png */; };
-		59C9DCF7148FFA3C00B41CAD /* cb_green_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE0148FFA3C00B41CAD /* cb_green_off.png */; };
-		59C9DCF8148FFA3C00B41CAD /* cb_green_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE1148FFA3C00B41CAD /* cb_green_off@2x.png */; };
-		59C9DCF9148FFA3C00B41CAD /* cb_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE2148FFA3C00B41CAD /* cb_green_on.png */; };
-		59C9DCFA148FFA3C00B41CAD /* cb_green_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE3148FFA3C00B41CAD /* cb_green_on@2x.png */; };
-		59C9DCFB148FFA3C00B41CAD /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE4148FFA3C00B41CAD /* cb_mono_off.png */; };
-		59C9DCFC148FFA3C00B41CAD /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE5148FFA3C00B41CAD /* cb_mono_off@2x.png */; };
-		59C9DCFD148FFA3C00B41CAD /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE6148FFA3C00B41CAD /* cb_mono_on.png */; };
-		59C9DCFE148FFA3C00B41CAD /* cb_mono_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9DCE7148FFA3C00B41CAD /* cb_mono_on@2x.png */; };
 		59C9DCFF148FFA3C00B41CAD /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C9DCEA148FFA3C00B41CAD /* UIHelpers.m */; };
+		689948D31829A20200066375 /* CheckBoxImg.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689948D21829A20200066375 /* CheckBoxImg.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,28 +38,9 @@
 		598F6404148E32C70051D19A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSCheckBoxViewViewController.xib; sourceTree = "<group>"; };
 		598F6421148E35910051D19A /* SSCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxView.h; sourceTree = "<group>"; };
 		598F6422148E35910051D19A /* SSCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxView.m; sourceTree = "<group>"; };
-		59C9DCD4148FFA3C00B41CAD /* cb_box_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_off.png; sourceTree = "<group>"; };
-		59C9DCD5148FFA3C00B41CAD /* cb_box_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_off@2x.png"; sourceTree = "<group>"; };
-		59C9DCD6148FFA3C00B41CAD /* cb_box_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_on.png; sourceTree = "<group>"; };
-		59C9DCD7148FFA3C00B41CAD /* cb_box_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_on@2x.png"; sourceTree = "<group>"; };
-		59C9DCD8148FFA3C00B41CAD /* cb_dark_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_off.png; sourceTree = "<group>"; };
-		59C9DCD9148FFA3C00B41CAD /* cb_dark_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_off@2x.png"; sourceTree = "<group>"; };
-		59C9DCDA148FFA3C00B41CAD /* cb_dark_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_on.png; sourceTree = "<group>"; };
-		59C9DCDB148FFA3C00B41CAD /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
-		59C9DCDC148FFA3C00B41CAD /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
-		59C9DCDD148FFA3C00B41CAD /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
-		59C9DCDE148FFA3C00B41CAD /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
-		59C9DCDF148FFA3C00B41CAD /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
-		59C9DCE0148FFA3C00B41CAD /* cb_green_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_off.png; sourceTree = "<group>"; };
-		59C9DCE1148FFA3C00B41CAD /* cb_green_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_off@2x.png"; sourceTree = "<group>"; };
-		59C9DCE2148FFA3C00B41CAD /* cb_green_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_on.png; sourceTree = "<group>"; };
-		59C9DCE3148FFA3C00B41CAD /* cb_green_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_on@2x.png"; sourceTree = "<group>"; };
-		59C9DCE4148FFA3C00B41CAD /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
-		59C9DCE5148FFA3C00B41CAD /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
-		59C9DCE6148FFA3C00B41CAD /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
-		59C9DCE7148FFA3C00B41CAD /* cb_mono_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_on@2x.png"; sourceTree = "<group>"; };
 		59C9DCE9148FFA3C00B41CAD /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
 		59C9DCEA148FFA3C00B41CAD /* UIHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelpers.m; sourceTree = "<group>"; };
+		689948D21829A20200066375 /* CheckBoxImg.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CheckBoxImg.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,39 +114,12 @@
 		598F640B148E356A0051D19A /* SSCheckBoxView */ = {
 			isa = PBXGroup;
 			children = (
-				59C9DCD3148FFA3C00B41CAD /* Graphics */,
 				59C9DCE8148FFA3C00B41CAD /* Helpers */,
 				598F6421148E35910051D19A /* SSCheckBoxView.h */,
 				598F6422148E35910051D19A /* SSCheckBoxView.m */,
+				689948D21829A20200066375 /* CheckBoxImg.xcassets */,
 			);
 			path = SSCheckBoxView;
-			sourceTree = "<group>";
-		};
-		59C9DCD3148FFA3C00B41CAD /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				59C9DCD4148FFA3C00B41CAD /* cb_box_off.png */,
-				59C9DCD5148FFA3C00B41CAD /* cb_box_off@2x.png */,
-				59C9DCD6148FFA3C00B41CAD /* cb_box_on.png */,
-				59C9DCD7148FFA3C00B41CAD /* cb_box_on@2x.png */,
-				59C9DCD8148FFA3C00B41CAD /* cb_dark_off.png */,
-				59C9DCD9148FFA3C00B41CAD /* cb_dark_off@2x.png */,
-				59C9DCDA148FFA3C00B41CAD /* cb_dark_on.png */,
-				59C9DCDB148FFA3C00B41CAD /* cb_dark_on@2x.png */,
-				59C9DCDC148FFA3C00B41CAD /* cb_glossy_off.png */,
-				59C9DCDD148FFA3C00B41CAD /* cb_glossy_off@2x.png */,
-				59C9DCDE148FFA3C00B41CAD /* cb_glossy_on.png */,
-				59C9DCDF148FFA3C00B41CAD /* cb_glossy_on@2x.png */,
-				59C9DCE0148FFA3C00B41CAD /* cb_green_off.png */,
-				59C9DCE1148FFA3C00B41CAD /* cb_green_off@2x.png */,
-				59C9DCE2148FFA3C00B41CAD /* cb_green_on.png */,
-				59C9DCE3148FFA3C00B41CAD /* cb_green_on@2x.png */,
-				59C9DCE4148FFA3C00B41CAD /* cb_mono_off.png */,
-				59C9DCE5148FFA3C00B41CAD /* cb_mono_off@2x.png */,
-				59C9DCE6148FFA3C00B41CAD /* cb_mono_on.png */,
-				59C9DCE7148FFA3C00B41CAD /* cb_mono_on@2x.png */,
-			);
-			path = Graphics;
 			sourceTree = "<group>";
 		};
 		59C9DCE8148FFA3C00B41CAD /* Helpers */ = {
@@ -250,26 +185,7 @@
 				598F63F6148E32C70051D19A /* InfoPlist.strings in Resources */,
 				598F63FF148E32C70051D19A /* MainWindow.xib in Resources */,
 				598F6405148E32C70051D19A /* SSCheckBoxViewViewController.xib in Resources */,
-				59C9DCEB148FFA3C00B41CAD /* cb_box_off.png in Resources */,
-				59C9DCEC148FFA3C00B41CAD /* cb_box_off@2x.png in Resources */,
-				59C9DCED148FFA3C00B41CAD /* cb_box_on.png in Resources */,
-				59C9DCEE148FFA3C00B41CAD /* cb_box_on@2x.png in Resources */,
-				59C9DCEF148FFA3C00B41CAD /* cb_dark_off.png in Resources */,
-				59C9DCF0148FFA3C00B41CAD /* cb_dark_off@2x.png in Resources */,
-				59C9DCF1148FFA3C00B41CAD /* cb_dark_on.png in Resources */,
-				59C9DCF2148FFA3C00B41CAD /* cb_dark_on@2x.png in Resources */,
-				59C9DCF3148FFA3C00B41CAD /* cb_glossy_off.png in Resources */,
-				59C9DCF4148FFA3C00B41CAD /* cb_glossy_off@2x.png in Resources */,
-				59C9DCF5148FFA3C00B41CAD /* cb_glossy_on.png in Resources */,
-				59C9DCF6148FFA3C00B41CAD /* cb_glossy_on@2x.png in Resources */,
-				59C9DCF7148FFA3C00B41CAD /* cb_green_off.png in Resources */,
-				59C9DCF8148FFA3C00B41CAD /* cb_green_off@2x.png in Resources */,
-				59C9DCF9148FFA3C00B41CAD /* cb_green_on.png in Resources */,
-				59C9DCFA148FFA3C00B41CAD /* cb_green_on@2x.png in Resources */,
-				59C9DCFB148FFA3C00B41CAD /* cb_mono_off.png in Resources */,
-				59C9DCFC148FFA3C00B41CAD /* cb_mono_off@2x.png in Resources */,
-				59C9DCFD148FFA3C00B41CAD /* cb_mono_on.png in Resources */,
-				59C9DCFE148FFA3C00B41CAD /* cb_mono_on@2x.png in Resources */,
+				689948D31829A20200066375 /* CheckBoxImg.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
