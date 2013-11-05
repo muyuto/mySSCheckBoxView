@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.author   = { 'Ahmet Ardal' => 'ardalahmet@gmail.com' }
   s.platform = :ios
 
-  s.source   = { :git => 'https://github.com/muyuto/mySSCheckBoxView.git', :tag => 'v0.0.1.3' }
+  s.source   = { :git => 'https://github.com/muyuto/mySSCheckBoxView.git', :tag => 'v0.0.1.4' }
 
   s.source_files = 'SSCheckBoxView/SSCheckBoxView', 'SSCheckBoxView/SSCheckBoxView/Helpers'
-  s.resources = "SSCheckBoxView/SSCheckBoxView/Graphics/*.png"
+  s.resources = "SSCheckBoxView/SSCheckBoxView/CheckBoxImg.xcassets/*"
 
 end
